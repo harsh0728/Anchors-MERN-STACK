@@ -20,7 +20,8 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "http://localhost:3000",
+    origin:
+      "https://65d63699bb7e8cdc29cbb062--wondrous-haupia-37b2c7.netlify.app",
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
     optionsSuccessStatus: 204,
